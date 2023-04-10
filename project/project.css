@@ -1,8 +1,6 @@
-nav ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 1.25em;
-  }
+table {
+  margin: auto;
+  width: 90%;
+  border-spacing: 0;
+  align-content: center;
+}

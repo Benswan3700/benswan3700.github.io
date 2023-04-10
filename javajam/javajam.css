@@ -88,12 +88,12 @@ nav a:visited {
 }
 
 nav ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  /* display: flex;
+  flex-direction: column; */
   font-size: 1.25em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav a:hover {
@@ -101,12 +101,15 @@ nav a:hover {
 }
 
 nav li {
-  padding-top: .5em;
-  padding-bottom: .5em;
-  padding-right: 1em;
-  padding-left: 1em;
-  width: 100%;
-  border-bottom: 1px;
+  border-bottom: 1px solid #FEF6C2;
+  /* padding: .5em 1em;
+  width: 100%; */
+}
+
+nav li a {
+  display: flex;
+  flex-direction: column;
+  padding: .5em 1em;
 }
 
 footer {
@@ -222,6 +225,24 @@ input[type="submit"] {
 
 #herojobs {
   background-image: url('images/herojobs.jpg')
+}
+
+.item {
+  background-color: #FAF9f7;
+  margin: 1em;
+  padding: 1em;
+  overflow: auto;
+}
+
+.item img{
+  float: right;
+}
+
+#herocouch {
+  background-image: url("images/herocouch.jpg");
+  height: 300px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 600px) {
