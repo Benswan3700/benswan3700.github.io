@@ -56,10 +56,11 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href=students-advisors.html>Students & Advisors</a></li>
           <li><a class="nav-link scrollto " href=judges.html>Judges</a></li>
-          <li><a class="nav-link scrollto" href=contact.html>Contact</a></li>
+          <li><a class="nav-link scrollto active" href=contact.html>Contact</a></li>
+          <li><a class="getstarted" href="index.html">Register Now!</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -73,12 +74,11 @@
     <div class="container-fluid" data-aos="fade-up">
       <div class="row justify-content-center">
         <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>Prepare. <br> Compete. <br> Win Big.</h1>
-          <h2>Our 2023 competition is fast <br> approching and better than ever</h2>
-          <div><a href="#about" class="btn-get-started scrollto">Register Now!</a></div>
+          <h1>In-The-Know</h1>
+          <h2>Got Questions? We were hoping so!</h2>
         </div>
         <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
-          <img src="assets/img/aggie-invite-logo.png" class="img-fluid animated" alt="">
+          <img src="assets/img/contact.png" class="img-fluid animated" alt="">
         </div>
       </div>
     </div>
@@ -87,21 +87,121 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-        <h3>It's Time!</h3>
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
-            <img src="assets/img/register.jpg" class="img-fluid" alt="">
+    <!-- ======= Contact Section ======= -->
+ <section id="contact" class="contact section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Contact</h2>
+      <p>Our team will work to answer any and all questions in a timely matter but check the FAQ section below for instant help.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="info-box mb-4">
+          <i class="bx bx-map"></i>
+          <h3>Our Address</h3>
+          <p>3500 Old Main Hill Logan, Utah 84322</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="info-box  mb-4">
+          <i class="bx bx-envelope"></i>
+          <h3>Email Us</h3>
+          <a href="mailto:ben@swan.com" class="contact-link"><p>info@huntsmanschool.usu.edu</p> </a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <div class="info-box  mb-4">
+          <i class="bx bx-phone-call"></i>
+          <h3>Call Us</h3>
+          <p>+1 5589 55488 55</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-6 ">
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5953.9508446850905!2d-111.808377!3d41.742623!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87547e7de4d0e4b1%3A0xc88fd9fc64697ebb!2sUSU%20Huntsman%20Hall%20Building%20(HH)!5e0!3m2!1sen!2sus!4v1682648519997!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-lg-6">
+        <form action="forms/contact.php" method="post" class="php-email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-SstXhH2KMRoLrKwUWbkpDSyP8lSYAH5vGTQgcRvmyqjvhg/viewform?embedded=true"></iframe>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
           </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Contact Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>Some things are just timeless</p>
+        </div>
+
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Where can I park? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  There is no parking provided for buses or students who drive their persnal car. Parking for Judges and any student or advisor who does decide to drive can park in the Big Blue terrace. Judges will recive validation. 
+                </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Where is the competition? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Aggie Invite takes place in the TSC ballroom.               
+                 </p>
+              </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">What are best preperation techniques? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  We reccomend visiting the offical DECA page. There you can find role plays and practice tests to ensure you're preapared day-of!
+                </p>
+              </div>
+            </li>
+
+          </ul>
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End Frequently Asked Questions Section -->
 
   </main><!-- End #main -->
 
